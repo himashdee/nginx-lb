@@ -12,7 +12,7 @@ RUN ls -l /
 # Make the entrypoint script executable
 RUN chmod +x /entrypoint.sh
 
-EXPOSE 8080
+EXPOSE 80
 
 USER 10014
 
